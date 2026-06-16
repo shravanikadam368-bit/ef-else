@@ -1,0 +1,12 @@
+age = int(input("Enter age: "))
+salary = int(input("Enter salary: "))
+
+if age >= 18:
+    if salary >= 50000:
+        print("Eligible for Premium Loan")
+    elif salary >= 25000:
+        print("Eligible for Normal Loan")
+    else:
+        print("Salary too low")
+else:
+    print("Not eligible because age is below 18")
