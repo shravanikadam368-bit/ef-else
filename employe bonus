@@ -1,0 +1,6 @@
+years = int(input("Enter years of service: "))
+
+if years >= 5:
+    print("Bonus Eligible")
+else:
+    print("Not Eligible for Bonus")
